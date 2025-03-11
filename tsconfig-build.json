@@ -1,0 +1,21 @@
+{
+    "extends": "./base-tsconfig.json",
+    "compilerOptions": {
+        "declaration": true,
+        "declarationDir": "types"
+    },
+    "include": ["src"],
+    "exclude": [
+        "**/*.test.ts",
+        "**/*.test.tsx",
+        "**/*.cyspec.ts",
+        "**/*.cyspec.tsx",
+        "cypress",
+        "node_modules",
+        "build",
+        "**/*.cyspec*.tsx",
+        "src/setupTests.js",
+        "src/utils/cypress-test-utils.tsx",
+        "src/i18n/genI18n.cjs"
+    ]
+}
