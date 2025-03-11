@@ -27,7 +27,7 @@
         "@emotion/styled": "11.13.0",
         "@mui/icons-material": "6.4.7",
         "@mui/material": "6.4.7",
-        "@mui/x-data-grid-premium": "6.10.1",
+        "@mui/x-data-grid-premium": "7.27.3",
         "@rollup/plugin-commonjs": "26.0.3",
         "@rollup/plugin-eslint": "9.0.5",
         "@rollup/plugin-json": "6.1.0",
